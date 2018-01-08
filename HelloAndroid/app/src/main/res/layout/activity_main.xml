@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.oisy.helloandroid.MainActivity">
+<Li
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        >
+
+        <ImageView
+            android:id="@+id/logo_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoudacity"
+            android:layout_marginHorizontal="21dp"
+            />
+
+
+        <TextView
+            android:id="@+id/udacity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Udacity"
+            android:layout_centerVertical="true"
+            android:textColor="#42A5F5"
+            android:textSize="66sp"
+            android:layout_margin="23dp"
+            android:fontFamily="@font/chisel"
+            />
+        <TextView
+            android:id="@+id/street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2465 Latham St"
+            android:layout_below="@id/udacity_text"
+            android:textColor="#42A5F5"
+            android:paddingLeft="15dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/chisel"
+            />
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mountain View, CA 94043"
+            android:layout_below="@id/street"
+            android:textColor="#42A5F5"
+            android:paddingLeft="15dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/chisel"
+            />
+        <TextView
+            android:id="@+id/tel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="650-555-5555"
+            android:layout_below="@id/city"
+            android:textColor="#42A5F5"
+            android:paddingLeft="15dp"
+            android:textSize="30sp"
+            android:fontFamily="@font/chisel"
+            />
+        <TextView
+            android:id="@+id/site"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.udacity.com"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textColor="#42A5F5"
+            android:paddingLeft="15dp"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:fontFamily="@font/chisel"
+            />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
